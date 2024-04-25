@@ -1,0 +1,383 @@
+.frame-child {
+    height: 72px;
+    width: 1281px;
+    position: relative;
+    background-color: var(--color-silver-200);
+    display: none;
+    max-width: 100%;
+  }
+  .on {
+    color: var(--color-red);
+  }
+  .home,
+  .omicon {
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    display: inline-block;
+    z-index: 1;
+  }
+  .omicon {
+    height: 60px;
+    width: 175px;
+    white-space: nowrap;
+  }
+  .home {
+    min-width: 97px;
+  }
+  .h-o-m-e-m-e-n-w-o-m-e-n-s-p-o {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-3xs) 0 0;
+  }
+  .men {
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 71px;
+    z-index: 1;
+  }
+  .h-o-m-e-m-e-n-w-o-m-e-n-s-p-o1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-3xs) 0 0;
+  }
+  .women {
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .h-o-m-e-m-e-n-w-o-m-e-n-s-p-o2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-3xs) 0 0;
+  }
+  .kids {
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 75px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .kids-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-3xs) 0 0;
+  }
+  .sports {
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 127px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .h-o-m-e-m-e-n-w-o-m-e-n-s-p-o3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) var(--padding-3xs) 0 0;
+  }
+  .buy,
+  .contact {
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .buy {
+    display: inline-block;
+    min-width: 65px;
+  }
+  .h-o-m-e-m-e-n-w-o-m-e-n-s-p-o4,
+  .menu-bar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .h-o-m-e-m-e-n-w-o-m-e-n-s-p-o4 {
+    flex-direction: column;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .menu-bar {
+    margin: 0;
+    align-self: stretch;
+    flex-direction: row;
+    gap: 17px;
+    text-align: center;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .menu-bar-wrapper,
+  .rectangle-parent {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .menu-bar-wrapper {
+    margin: 0;
+    width: 880px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px 0 0;
+  }
+  .rectangle-parent {
+    align-self: stretch;
+    background-color: var(--color-silver-200);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--padding-7xs) var(--padding-mid) var(--padding-7xs)
+      var(--padding-smi);
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: 20px;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .shoes-for-men {
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .square-shape-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .mrp,
+  .nike-air-force {
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+  }
+  .mrp {
+    z-index: 1;
+  }
+  .mrp-10-79500-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-6xs) 0 var(--padding-7xs);
+    margin-top: -1px;
+  }
+  .m-r-p-f-r-a-m-e,
+  .m-r-p-f-r-a-m-e-wrapper,
+  .square-shape-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .m-r-p-f-r-a-m-e-wrapper,
+  .square-shape-parent {
+    flex-direction: row;
+    padding: 0 var(--padding-mid);
+  }
+  .square-shape-parent {
+    height: 467px;
+    flex-direction: column;
+    padding: 0 var(--padding-6xs) 0 0;
+    box-sizing: border-box;
+    gap: 27px;
+    max-width: 100%;
+  }
+  .nike-revolution-m-r-p {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .mrp1,
+  .nike-revolution {
+    margin: 0;
+  }
+  .nike-revolution-mrp-container {
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+  }
+  .nike-revolution-mrp-49950-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-smi);
+  }
+  .nike-revolution-m-r-p-parent {
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    max-width: 100%;
+  }
+  .frame-item {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .mrp2,
+  .nike-revolution-7 {
+    margin: 0;
+  }
+  .nike-revolution-7-container {
+    height: 72px;
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .nike-revolution-7-mrp-2695-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 3px;
+  }
+  .rectangle-group {
+    height: 462px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .frame-parent,
+  .rectangle-group,
+  .shoes-menu,
+  .shoes-menu-inner {
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-parent {
+    flex: 1;
+    display: grid;
+    flex-direction: row;
+    gap: 51px;
+    grid-template-columns: repeat(3, minmax(276px, 1fr));
+  }
+  .shoes-menu,
+  .shoes-menu-inner {
+    display: flex;
+  }
+  .shoes-menu-inner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 8px;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xl);
+  }
+  .shoes-menu {
+    flex: 1;
+    flex-direction: column;
+    gap: 66px;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .desktop-3,
+  .shoes-menu-wrapper {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .shoes-menu-wrapper {
+    width: 1236px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 18px;
+    max-width: 100%;
+  }
+  .desktop-3 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 2px 0 91px;
+    gap: 49px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .shoes-menu {
+      gap: 33px;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .menu-bar-wrapper {
+      display: none;
+    }
+    .shoes-for-men {
+      font-size: var(--font-size-13xl);
+    }
+    .frame-parent {
+      justify-content: center;
+      grid-template-columns: repeat(2, minmax(276px, 478px));
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .frame-parent {
+      gap: 25px;
+      grid-template-columns: minmax(276px, 1fr);
+    }
+    .shoes-menu {
+      gap: 16px;
+    }
+    .desktop-3 {
+      gap: 24px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .shoes-for-men {
+      font-size: var(--font-size-5xl);
+    }
+    .mrp,
+    .nike-air-force,
+    .nike-revolution-7-container,
+    .nike-revolution-mrp-container {
+      font-size: var(--font-size-lgi);
+    }
+  }
+  
